@@ -1,12 +1,13 @@
-package com.example.costumerservice.model;
+package com.example.customerservice.model;
 
-import org.springframework.web.bind.annotation.PostMapping;
+import jakarta.validation.constraints.NotEmpty;
 
 import java.util.Objects;
 
 public class Customer {
 
     private int id;
+    @NotEmpty(message = "name cannot be empty.")
     private String name;
     private String email;
 

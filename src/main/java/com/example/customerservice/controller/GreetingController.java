@@ -1,4 +1,4 @@
-package com.example.costumerservice.controller;
+package com.example.customerservice.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
